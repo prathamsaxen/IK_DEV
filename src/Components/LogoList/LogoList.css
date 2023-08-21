@@ -1,0 +1,24 @@
+.LogoList{
+    margin-top: 72px;
+    height: 202px;
+    background: #F7F7FA;;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo7,.logo5,.logo9,.logo6{
+    background: url("./images/Logo-7.png"), lightgray 50% / cover no-repeat;
+    width: 215px;
+    height: 80px;
+}
+.logo5 {
+    background: url("./images/logo5.png"), lightgray 50% / cover no-repeat;
+}
+.logo9 {
+    background: url("./images/logo9.png"), lightgray 50% / cover no-repeat;
+}
+.logo6{
+    
+    background: url("./images/Logo-6.png"), lightgray 50% / cover no-repeat;
+    
+}

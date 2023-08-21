@@ -1,0 +1,43 @@
+.ServicesGroup{
+    height: 602.34px;
+    background-color: #E7DAED;
+    border: 1px solid rgba(231, 218, 237, 1);
+}
+.ServicesGroup h2{
+font-family: Inter;
+font-size: 35px;
+font-weight: 700;
+line-height: 55px;
+letter-spacing: 0em;
+text-align: left;
+width: max-content;
+margin: auto;
+margin-top: 46px;
+color: #1A202C;
+}
+.Card-Corousel{
+    width: 1079px;
+    margin: auto;
+    margin-top: 70px;
+    height: 326px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px;
+    gap: 40px;
+}
+.Corousel-Nodes{
+    display:    flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: auto;
+    position: absolute;
+    top: 1328px;
+    left: 669px;
+}
+.Corousel-slider-numb{
+    position: absolute;
+    left: 1095px;
+    top: 1330px;
+}

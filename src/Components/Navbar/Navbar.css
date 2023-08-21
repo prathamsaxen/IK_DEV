@@ -1,0 +1,81 @@
+
+:root{
+    --nav-height:79px;
+    --primary-color:#6675F7;
+    --secondary-color:#57007B;
+    --gray-50:#FAFAFA;
+    --base-white:#FFFFFF;
+    --text-gray:#4A5568;
+    --shadow-color-nav:#0000001A;
+    --background-shade:#E7DAED;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .Navbar{
+    height: var(--nav-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px 10px 25px;
+    background-color:var(--base-white);
+    box-shadow: 0px 4px 40px 0px var(--shadow-color-nav);
+  
+  }
+  .logo{
+    width: 180px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo img{
+    width: 29px;
+    height: 22px;
+  }
+  .logo p{
+    font-family: Inspiration;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left:1px ;
+  }
+  nav ul{
+    display: flex;
+    list-style-type: none;
+    width: 645px;
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    padding: 10px 0px 10px 0px;
+  }
+  nav ul li a{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: var(--text-gray);
+  }
+  .button button{
+    border: none;
+    padding: 14px 25px 14px 25px;
+    border-radius: 5px;
+    gap: 10px;
+    background: linear-gradient(var(--primary-color), var(--secondary-color));
+    color: var(--gray-50);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .button button:hover{
+    background: linear-gradient( var(--secondary-color),var(--primary-color));
+    cursor: pointer;
+  }

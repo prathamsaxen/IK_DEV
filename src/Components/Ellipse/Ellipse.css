@@ -1,0 +1,6 @@
+.Ellipse{
+    border-radius: 50%;
+    background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
+    position: absolute;
+    z-index: -1;
+}

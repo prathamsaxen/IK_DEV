@@ -1,0 +1,121 @@
+.Frame22{
+    width: 112px;   
+    position: absolute;
+    top: 2340px;
+    left: 1247px;
+}
+.Frame22 img{
+    width: 100%;
+    height: 100%;
+}
+.AboutUs_Details{
+    margin: auto;
+    margin-top: 182px;
+    display: flex;
+    width: max-content;
+}
+.About-us-details{
+    height: 420px;
+    width: 535px;
+    /* border: 2px solid red; */
+}
+.Rectangle-9{
+    height: 460px;
+    width: 601px;   
+    margin-left: 96px;
+}
+.Deco-line{
+    width: 69px;
+    height: 5px;
+    background: var(--gradient-primary-bg, linear-gradient(225deg, #F76680 0%, #57007B 100%));
+}
+.About-us-details h2{
+    width: 400px;
+    color: var(--gray-gray-900, #1A202C);
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px; /* 157.143% */
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+.span-color{
+    color: var(--gray-gray-900, #1A202C);
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px;
+}
+.p-text{
+    margin-top: 30px;
+    width: 75%;
+    color: var(--gray-gray-600, #718096);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 200% */
+}
+.span-color1{
+    background: var(--gradient-primary-bg, linear-gradient(225deg, #F76680 0%, #57007B 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+.LinkClick{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* border: 2px solid red; */
+    gap: 15px;
+    margin-top: 51px;
+    cursor: pointer;
+}
+.LinkClick p{
+    color: var(--brand-primary-bg, #57007B);
+
+/* Headings/Headings-h6 */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px;
+
+}
+.LinkClick img{
+width: 24px;
+height: 24px;
+margin-top: 10px;
+}
+.Frame11{
+    margin-top: 167px;
+    margin-left: 105px;
+    width: 412px;
+    height: 133px;
+}
+.Frame11 h2{
+    color: var(--gray-gray-900, #1A202C);
+
+/* Headings/light-h2 */
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 55px; /* 157.143% */
+margin-top: 20px;
+}
+.Frame11-Heading{
+    color: var(--gray-gray-900, #1A202C);
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+}
